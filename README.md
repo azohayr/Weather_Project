@@ -29,7 +29,7 @@ En résumé, le projet récupère les données météorologiques à partir de l'
 
 ![image](https://github.com/azohayr/Weather_Project/blob/main/Architecture%20de%20projet.PNG)
 
-*Figure 1: Capture d'écran des containers qui tournent sous docker desktop*
+*Figure 1: Capture d'écran des containers qui tournent sous docker desktop* \\
 
 
 ![image](https://github.com/azohayr/Weather_Project/blob/main/vis_code.PNG)
