@@ -24,6 +24,13 @@ Le projet utilise Docker Compose pour orchestrer la communication entre les diff
 
 En résumé, le projet récupère les données météorologiques à partir de l'API OpenWeather, les stocke dans une base de données Cassandra et fournit une API pour interroger ces données.
 
+## Utilisation 
+
+=> Assurez-vous d'avoir Docker installé sur votre système.
+=> Dirigez-vous vers le répertoire contenant le fichier docker-compose.yml.
+=> Dans votre terminal, exécutez la commande suivante : docker-compose up.
+=> Attendez que les services se construisent et se lancent. Une fois terminé, des messages indiqueront que les services sont prêts à être utilisés.
+=> Vous pouvez désormais accéder à l'API OpenWeather via l'adresse spécifiée http://localhost:8080/weather?country=FR et commencer à récupérer les données météorologiques.
 
 ## Screen de projet 
 
