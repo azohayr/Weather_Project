@@ -14,7 +14,7 @@ services:
 
   api:
     build: 
-      context: ./flask-api
+      context: ./API
       dockerfile: Dockerfile
     networks:
       - db_network

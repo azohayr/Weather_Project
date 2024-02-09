@@ -9,9 +9,9 @@ from init_db import init_db
 
 OPEN_WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather'
 
-OPEN_WEATHER_API_KEY = 'dd21a638583cc4d8d17e6e7b24b70348'
+OPEN_WEATHER_API_KEY = '88d66e829bc5793150edeee5f8f4d2f2'
 
-CITIES_FILE = 'city.list.json'
+CITIES_FILE = 'current.city.list.json'
 
 def get_city_weather(city_id: int):
   response =  requests.get(OPEN_WEATHER_API_URL, params={'id': city_id, 'appid': OPEN_WEATHER_API_KEY})
@@ -46,7 +46,7 @@ weather_info = []
 for city_id in france_cities[0:100]:
   weather_info_by_city = get_city_weather(city_id)
   weather_info.append({
-     'id': weather_info_by_city['id'],
+      'id': weather_info_by_city['id'],
       'name': weather_info_by_city['name'],
       'weather': weather_info_by_city['weather'][0]['main'],
       'description': weather_info_by_city['weather'][0]['main'],
