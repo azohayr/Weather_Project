@@ -15,12 +15,12 @@ Ce service, développé en Python, récupère les données météorologiques de 
 #### Service API : 
 Également développé en Python, ce service extrait les informations météorologiques de la base de données Cassandra et répond aux requêtes de l'API. Le script **main.py** définit les endpoints de l'API et interroge la base de données pour récupérer les données météorologiques demandées.
 
-#### Docker
+#### Docker :
 Le projet utilise Docker Compose pour orchestrer la communication entre les différents composants et assure que la base de données Cassandra, le service de **crawling** et le service API sont tous lancés et opérationnels. Pour exécuter le projet, il suffit de se rendre dans le répertoire du projet et d'exécuter la commande **'docker-compose up'**.
 
 
 
-#### Conclusion 
+#### Conclusion :
 
 En résumé, le projet récupère les données météorologiques à partir de l'API OpenWeather, les stocke dans une base de données Cassandra et fournit une API pour interroger ces données.
 
