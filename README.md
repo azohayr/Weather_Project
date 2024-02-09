@@ -39,7 +39,13 @@ En résumé, le projet récupère les données météorologiques à partir de l'
 
 ![image](https://github.com/azohayr/Weather_Project/blob/main/API_exec.PNG)
 
+
 *Figure 3: Capture d'écran sur le fonctionnement de l'API *
+
+
+![image](https://github.com/azohayr/Weather_Project/blob/main/Cassandra_exec.PNG)
+
+*Figure 4: Capture d'écran sur le fonctionnement du cqlsh sur Cassandra *
 
 
 
