@@ -29,18 +29,18 @@ En résumé, le projet récupère les données météorologiques à partir de l'
 
 ![image](https://github.com/azohayr/Weather_Project/blob/main/Architecture%20de%20projet.PNG)
 
-*Figure 1: Capture d'écran des containers qui tournent sous docker desktop .*
+*Figure 1: Capture d'écran des containers qui tournent sous docker desktop*
 
 
 ![image](https://github.com/azohayr/Weather_Project/blob/main/vis_code.PNG)
 
 
-*Figure 2: Capture d'écran du script python sur visual code *
+*Figure 2: Capture d'écran du script python sur visual code*
 
 ![image](https://github.com/azohayr/Weather_Project/blob/main/API_exec.PNG)
 
 
-*Figure 3: Capture d'écran sur le fonctionnement de l'API *
+*Figure 3: Capture d'écran sur le fonctionnement de l'API*
 
 
 ![image](https://github.com/azohayr/Weather_Project/blob/main/Cassandra_exec.PNG)
