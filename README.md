@@ -2,7 +2,7 @@
  ## Introduction 
 Le projet d'exploration de données météorologiques utilise l'API OpenWeather pour récupérer les données météorologiques des villes françaises et les stocker dans une base de données Cassandra. Il comprend trois composants principaux : la base de données Cassandra, le service de crawling et le service Flask API.
 
-
+![image](https://github.com/azohayr/Weather_Project/blob/main/Architecture%20de%20projet.PNG)
 
 ## Architecture et outils de projet 
 
