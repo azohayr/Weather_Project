@@ -19,9 +19,13 @@ Ce service, développé en Python, récupère les données météorologiques de 
 ### Docker
 Le projet utilise Docker Compose pour orchestrer la communication entre les différents composants et assure que la base de données Cassandra, le service de crawling et le service API sont tous lancés et opérationnels. Pour exécuter le projet, il suffit de se rendre dans le répertoire du projet et d'exécuter la commande **'docker-compose up'**.
 
+
+
 ### Conclusion 
 
 En résumé, le projet récupère les données météorologiques à partir de l'API OpenWeather, les stocke dans une base de données Cassandra et fournit une API pour interroger ces données.
+
+
 
 
 
