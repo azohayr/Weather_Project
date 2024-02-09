@@ -29,10 +29,13 @@ En résumé, le projet récupère les données météorologiques à partir de l'
 
 ![image](https://github.com/azohayr/Weather_Project/blob/main/Architecture%20de%20projet.PNG)
 
-*Figure 2: Capture d'écran de  résultatl'API OpenWeather en cours d'exécution.*
+*Figure 1: Capture d'écran des containers qui tournent sous docker desktop .*
 
 
+![image](https://github.com/azohayr/Weather_Project/commit/4b4f055692d8382a9030ca32a06ba2bae674ceef)
 
+
+*Figure 2: Capture d'écran du script python sur visual code *
 
 
 
